@@ -1,0 +1,21 @@
+package model;
+public class  Funcionario extends Pessoa {
+    private String matricula;
+
+    public Funcionario(String nome, int idade, String altura, String matricula) {
+        super(nome, altura, idade);
+        this.matricula = matricula;
+    }
+
+    public Funcionario() {
+    } 
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+}
+
